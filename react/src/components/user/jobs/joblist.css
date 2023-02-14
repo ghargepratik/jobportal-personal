@@ -1,0 +1,14 @@
+.m-only {
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .m-only {
+    display: block !important;
+  }
+  .m-none {
+    display: none !important;
+  }
+  .m-center {
+    text-align: center;
+  }
+}

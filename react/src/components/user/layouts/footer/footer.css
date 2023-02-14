@@ -1,0 +1,129 @@
+section#footer {
+  background: #222222;
+  color: white;
+  padding: 60px 0px;
+}
+section {
+  display: block;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.footer-main h5 {
+  margin-bottom: 35px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.col-sm-12.col-md-3.footer-col4 svg.col-sm-12.col-md-3.footer-col4 svg {
+  width: 25px;
+  height: 30px;
+}
+
+h5 {
+  font-size: 15px;
+  line-height: 20px;
+}
+#footer ul {
+  padding-left: 0px !important;
+}
+.footer-main ul li {
+  margin-bottom: 10px;
+}
+ul li {
+  list-style: none;
+}
+.footer-col1 i,
+.footer-col2 i {
+  font-size: 10px;
+}
+
+.footer-main ul li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer-main ul li a {
+  color: white;
+  padding-left: 15px;
+  font-weight: 200;
+  font-size: var(--footer-sub-font);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px !important;
+}
+a {
+  text-decoration: none;
+}
+.reviewed {
+  font-size: var(--footer-sub-font);
+}
+strong {
+  font-weight: bolder;
+}
+.review {
+  font-size: 13.5px;
+  padding-right: 10px;
+}
+.footer-star img {
+  width: 100px;
+  height: auto;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+.review-4 {
+  margin-left: 26px;
+}
+.shopify-partner,
+.site-developer {
+  margin-top: 15px;
+  font-size: var(--footer-sub-font);
+  margin-bottom: 3px;
+}
+.site-developer {
+  margin-top: 15px;
+  font-size: var(--footer-sub-font);
+  margin-bottom: 3px;
+}
+.site-developer-img {
+  width: 280px;
+  overflow: hidden;
+}
+.site-developer-img img {
+  width: 100%;
+}
+.footer-col4 {
+  font-size: var(--footer-sub-font);
+}
+h5 {
+  font-size: 15px;
+  line-height: 20px;
+}
+.footer-col4 i {
+  font-size: 25px;
+  padding-right: 13px;
+}
+.footer-col4 p {
+  margin-bottom: 0;
+  padding-bottom: 6px;
+}
+.compnay-name {
+  font-weight: 600;
+  color: #cfc9c9;
+}
+p {
+  margin: 0 0 15px 0;
+}
